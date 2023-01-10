@@ -92,7 +92,7 @@ var upperCasedCharacters = [
 let myPassword, validator;
 
 // Function that prompts user for password
-function getPasswordOptions() {
+let getPasswordOptions = () => {
 
   // Prompt user for password 
   myPassword = prompt("Please enter password: ");
@@ -149,7 +149,7 @@ function getPasswordOptions() {
 }
 
 // Function for getting a random element from an array
-function getRandom(arr) {
+let getRandom = (arr) => {
   return Math.floor(Math.random() * arr.length);
 }
 
